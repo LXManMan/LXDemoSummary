@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LXBasicController : UIViewController
-
+@property(nonatomic,strong)UISlider *slider;
 @end

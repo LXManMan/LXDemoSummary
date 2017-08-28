@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		435959F7466CADFC1C194C8B /* libPods-LXDemoSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D309089DD7150DED8111B3CA /* libPods-LXDemoSummary.a */; };
+		940A88501F53BC5F00557C79 /* Arc2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88421F53BC5F00557C79 /* Arc2ViewController.m */; };
+		940A88511F53BC5F00557C79 /* ArcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88441F53BC5F00557C79 /* ArcViewController.m */; };
+		940A88521F53BC5F00557C79 /* dahai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 940A88451F53BC5F00557C79 /* dahai.jpg */; };
+		940A88531F53BC5F00557C79 /* HubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88471F53BC5F00557C79 /* HubViewController.m */; };
+		940A88541F53BC5F00557C79 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88491F53BC5F00557C79 /* RadarViewController.m */; };
+		940A88551F53BC5F00557C79 /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A884B1F53BC5F00557C79 /* RoundViewController.m */; };
+		940A88561F53BC5F00557C79 /* ShipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A884D1F53BC5F00557C79 /* ShipeViewController.m */; };
+		940A88571F53BC5F00557C79 /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A884F1F53BC5F00557C79 /* WaveViewController.m */; };
+		940A88711F53BC7100557C79 /* chuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940A88591F53BC7100557C79 /* chuan@2x.png */; };
+		940A88721F53BC7100557C79 /* LXHubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A885C1F53BC7100557C79 /* LXHubView.m */; };
+		940A88731F53BC7100557C79 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A885F1F53BC7100557C79 /* CircleView.m */; };
+		940A88741F53BC7100557C79 /* LXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88621F53BC7100557C79 /* LXCircle.m */; };
+		940A88751F53BC7100557C79 /* ArcProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88651F53BC7100557C79 /* ArcProgress.m */; };
+		940A88761F53BC7100557C79 /* shipeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88681F53BC7100557C79 /* shipeAnimation.m */; };
+		940A88771F53BC7100557C79 /* LXWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A886B1F53BC7100557C79 /* LXWave.m */; };
+		940A88781F53BC7100557C79 /* LXWaveProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A886D1F53BC7100557C79 /* LXWaveProgress.m */; };
+		940A88791F53BC7100557C79 /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88701F53BC7100557C79 /* UIView+RadarAnimation.m */; };
 		9414E3551F4EA8D400A4E0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3541F4EA8D400A4E0D3 /* main.m */; };
 		9414E3581F4EA8D400A4E0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3571F4EA8D400A4E0D3 /* AppDelegate.m */; };
 		9414E35E1F4EA8D400A4E0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9414E35C1F4EA8D400A4E0D3 /* Main.storyboard */; };
@@ -180,6 +197,38 @@
 
 /* Begin PBXFileReference section */
 		38BFF319BFE30CB6268E4A3C /* Pods-LXDemoSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDemoSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXDemoSummary/Pods-LXDemoSummary.release.xcconfig"; sourceTree = "<group>"; };
+		940A88411F53BC5F00557C79 /* Arc2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arc2ViewController.h; sourceTree = "<group>"; };
+		940A88421F53BC5F00557C79 /* Arc2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arc2ViewController.m; sourceTree = "<group>"; };
+		940A88431F53BC5F00557C79 /* ArcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcViewController.h; sourceTree = "<group>"; };
+		940A88441F53BC5F00557C79 /* ArcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcViewController.m; sourceTree = "<group>"; };
+		940A88451F53BC5F00557C79 /* dahai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dahai.jpg; sourceTree = "<group>"; };
+		940A88461F53BC5F00557C79 /* HubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubViewController.h; sourceTree = "<group>"; };
+		940A88471F53BC5F00557C79 /* HubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubViewController.m; sourceTree = "<group>"; };
+		940A88481F53BC5F00557C79 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
+		940A88491F53BC5F00557C79 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
+		940A884A1F53BC5F00557C79 /* RoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
+		940A884B1F53BC5F00557C79 /* RoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		940A884C1F53BC5F00557C79 /* ShipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipeViewController.h; sourceTree = "<group>"; };
+		940A884D1F53BC5F00557C79 /* ShipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipeViewController.m; sourceTree = "<group>"; };
+		940A884E1F53BC5F00557C79 /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		940A884F1F53BC5F00557C79 /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		940A88591F53BC7100557C79 /* chuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chuan@2x.png"; sourceTree = "<group>"; };
+		940A885B1F53BC7100557C79 /* LXHubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHubView.h; sourceTree = "<group>"; };
+		940A885C1F53BC7100557C79 /* LXHubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHubView.m; sourceTree = "<group>"; };
+		940A885E1F53BC7100557C79 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		940A885F1F53BC7100557C79 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		940A88611F53BC7100557C79 /* LXCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircle.h; sourceTree = "<group>"; };
+		940A88621F53BC7100557C79 /* LXCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircle.m; sourceTree = "<group>"; };
+		940A88641F53BC7100557C79 /* ArcProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcProgress.h; sourceTree = "<group>"; };
+		940A88651F53BC7100557C79 /* ArcProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcProgress.m; sourceTree = "<group>"; };
+		940A88671F53BC7100557C79 /* shipeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shipeAnimation.h; sourceTree = "<group>"; };
+		940A88681F53BC7100557C79 /* shipeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shipeAnimation.m; sourceTree = "<group>"; };
+		940A886A1F53BC7100557C79 /* LXWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWave.h; sourceTree = "<group>"; };
+		940A886B1F53BC7100557C79 /* LXWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWave.m; sourceTree = "<group>"; };
+		940A886C1F53BC7100557C79 /* LXWaveProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWaveProgress.h; sourceTree = "<group>"; };
+		940A886D1F53BC7100557C79 /* LXWaveProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgress.m; sourceTree = "<group>"; };
+		940A886F1F53BC7100557C79 /* UIView+RadarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadarAnimation.h"; sourceTree = "<group>"; };
+		940A88701F53BC7100557C79 /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
 		9414E3501F4EA8D400A4E0D3 /* LXDemoSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDemoSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9414E3541F4EA8D400A4E0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9414E3561F4EA8D400A4E0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -482,6 +531,108 @@
 				38BFF319BFE30CB6268E4A3C /* Pods-LXDemoSummary.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		940A88401F53BC5F00557C79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				940A88411F53BC5F00557C79 /* Arc2ViewController.h */,
+				940A88421F53BC5F00557C79 /* Arc2ViewController.m */,
+				940A88431F53BC5F00557C79 /* ArcViewController.h */,
+				940A88441F53BC5F00557C79 /* ArcViewController.m */,
+				940A88451F53BC5F00557C79 /* dahai.jpg */,
+				940A88461F53BC5F00557C79 /* HubViewController.h */,
+				940A88471F53BC5F00557C79 /* HubViewController.m */,
+				940A88481F53BC5F00557C79 /* RadarViewController.h */,
+				940A88491F53BC5F00557C79 /* RadarViewController.m */,
+				940A884A1F53BC5F00557C79 /* RoundViewController.h */,
+				940A884B1F53BC5F00557C79 /* RoundViewController.m */,
+				940A884C1F53BC5F00557C79 /* ShipeViewController.h */,
+				940A884D1F53BC5F00557C79 /* ShipeViewController.m */,
+				940A884E1F53BC5F00557C79 /* WaveViewController.h */,
+				940A884F1F53BC5F00557C79 /* WaveViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		940A88581F53BC7100557C79 /* ProgressViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				940A88591F53BC7100557C79 /* chuan@2x.png */,
+				940A885A1F53BC7100557C79 /* 加载动画 */,
+				940A885D1F53BC7100557C79 /* 圆弧进度 */,
+				940A88601F53BC7100557C79 /* 圆弧进度2 */,
+				940A88631F53BC7100557C79 /* 扇形进度 */,
+				940A88661F53BC7100557C79 /* 正余弦动画 */,
+				940A88691F53BC7100557C79 /* 水波纹注水动画 */,
+				940A886E1F53BC7100557C79 /* 雷达动画 */,
+			);
+			path = ProgressViewCategory;
+			sourceTree = "<group>";
+		};
+		940A885A1F53BC7100557C79 /* 加载动画 */ = {
+			isa = PBXGroup;
+			children = (
+				940A885B1F53BC7100557C79 /* LXHubView.h */,
+				940A885C1F53BC7100557C79 /* LXHubView.m */,
+			);
+			path = "加载动画";
+			sourceTree = "<group>";
+		};
+		940A885D1F53BC7100557C79 /* 圆弧进度 */ = {
+			isa = PBXGroup;
+			children = (
+				940A885E1F53BC7100557C79 /* CircleView.h */,
+				940A885F1F53BC7100557C79 /* CircleView.m */,
+			);
+			path = "圆弧进度";
+			sourceTree = "<group>";
+		};
+		940A88601F53BC7100557C79 /* 圆弧进度2 */ = {
+			isa = PBXGroup;
+			children = (
+				940A88611F53BC7100557C79 /* LXCircle.h */,
+				940A88621F53BC7100557C79 /* LXCircle.m */,
+			);
+			path = "圆弧进度2";
+			sourceTree = "<group>";
+		};
+		940A88631F53BC7100557C79 /* 扇形进度 */ = {
+			isa = PBXGroup;
+			children = (
+				940A88641F53BC7100557C79 /* ArcProgress.h */,
+				940A88651F53BC7100557C79 /* ArcProgress.m */,
+			);
+			path = "扇形进度";
+			sourceTree = "<group>";
+		};
+		940A88661F53BC7100557C79 /* 正余弦动画 */ = {
+			isa = PBXGroup;
+			children = (
+				940A88671F53BC7100557C79 /* shipeAnimation.h */,
+				940A88681F53BC7100557C79 /* shipeAnimation.m */,
+			);
+			path = "正余弦动画";
+			sourceTree = "<group>";
+		};
+		940A88691F53BC7100557C79 /* 水波纹注水动画 */ = {
+			isa = PBXGroup;
+			children = (
+				940A886A1F53BC7100557C79 /* LXWave.h */,
+				940A886B1F53BC7100557C79 /* LXWave.m */,
+				940A886C1F53BC7100557C79 /* LXWaveProgress.h */,
+				940A886D1F53BC7100557C79 /* LXWaveProgress.m */,
+			);
+			path = "水波纹注水动画";
+			sourceTree = "<group>";
+		};
+		940A886E1F53BC7100557C79 /* 雷达动画 */ = {
+			isa = PBXGroup;
+			children = (
+				940A886F1F53BC7100557C79 /* UIView+RadarAnimation.h */,
+				940A88701F53BC7100557C79 /* UIView+RadarAnimation.m */,
+			);
+			path = "雷达动画";
 			sourceTree = "<group>";
 		};
 		9414E3471F4EA8D400A4E0D3 = {
@@ -946,6 +1097,8 @@
 			children = (
 				9414E4821F4EB1C800A4E0D3 /* LXSpecialRootController.h */,
 				9414E4831F4EB1C800A4E0D3 /* LXSpecialRootController.m */,
+				940A88581F53BC7100557C79 /* ProgressViewCategory */,
+				940A88401F53BC5F00557C79 /* Controllers */,
 			);
 			path = LXSpecialEffect;
 			sourceTree = "<group>";
@@ -1395,11 +1548,13 @@
 				94B296061F4FAD420026D58B /* playBtn.png in Resources */,
 				94B296121F4FAD420026D58B /* 马上就来-9.png in Resources */,
 				9414E35E1F4EA8D400A4E0D3 /* Main.storyboard in Resources */,
+				940A88521F53BC5F00557C79 /* dahai.jpg in Resources */,
 				94B296041F4FAD420026D58B /* nextVideo.png in Resources */,
 				94B295FA1F4FAD420026D58B /* search5.png in Resources */,
 				9414E4E21F4EDB4000A4E0D3 /* Untitled.xcworkspace in Resources */,
 				94B296011F4FAD420026D58B /* dlna_exp3.png in Resources */,
 				94B295F91F4FAD420026D58B /* search4.png in Resources */,
+				940A88711F53BC7100557C79 /* chuan@2x.png in Resources */,
 				94B296181F4FAD420026D58B /* tableBtn.png in Resources */,
 				94B296031F4FAD420026D58B /* lubi_loading.gif in Resources */,
 				94B295F61F4FAD420026D58B /* search12.png in Resources */,
@@ -1487,13 +1642,17 @@
 				94B2962A1F4FB2D50026D58B /* LXDropView.m in Sources */,
 				9414E48D1F4EB37200A4E0D3 /* UIImage+colorImage.m in Sources */,
 				9414E3C11F4EABB500A4E0D3 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				940A88571F53BC5F00557C79 /* WaveViewController.m in Sources */,
 				9414E4301F4EACF300A4E0D3 /* UIView+SDAutoLayout.m in Sources */,
 				944DEF591F4FD5D800033E7E /* LXTagsView.m in Sources */,
 				9414E4041F4EAC9400A4E0D3 /* UIView+Toast.m in Sources */,
 				9414E4AC1F4EC8AD00A4E0D3 /* LXChooseLocationController.m in Sources */,
+				940A88561F53BC5F00557C79 /* ShipeViewController.m in Sources */,
 				9414E3BB1F4EABB500A4E0D3 /* IQUIScrollView+Additions.m in Sources */,
+				940A88741F53BC7100557C79 /* LXCircle.m in Sources */,
 				9414E3D41F4EAC7800A4E0D3 /* ChineseToPinyin.m in Sources */,
 				9414E3BE1F4EABB500A4E0D3 /* IQUIViewController+Additions.m in Sources */,
+				940A88541F53BC5F00557C79 /* RadarViewController.m in Sources */,
 				9414E4011F4EAC9400A4E0D3 /* UIColor+Expanded.m in Sources */,
 				9414E3BF1F4EABB500A4E0D3 /* IQUIWindow+Hierarchy.m in Sources */,
 				94B296281F4FB2D50026D58B /* LXDropListCell.m in Sources */,
@@ -1507,19 +1666,24 @@
 				9414E4401F4EACF900A4E0D3 /* UIBarButtonItem+WZLBadge.m in Sources */,
 				9414E3F91F4EAC9400A4E0D3 /* NSArray+Log.m in Sources */,
 				9414E4811F4EB1B900A4E0D3 /* LXControlRootController.m in Sources */,
+				940A88761F53BC7100557C79 /* shipeAnimation.m in Sources */,
 				9414E3C31F4EABB500A4E0D3 /* IQBarButtonItem.m in Sources */,
 				9414E4411F4EACF900A4E0D3 /* UITabBarItem+WZLBadge.m in Sources */,
 				9414E4D71F4EDA9900A4E0D3 /* UIView+Frame.m in Sources */,
 				9414E3581F4EA8D400A4E0D3 /* AppDelegate.m in Sources */,
+				940A88731F53BC7100557C79 /* CircleView.m in Sources */,
 				9414E4A21F4EC54800A4E0D3 /* LXSegmentOneController.m in Sources */,
 				9414E48A1F4EB21C00A4E0D3 /* LXRootUseController.m in Sources */,
 				9414E4001F4EAC9400A4E0D3 /* UIButton+ImageTitleSpacing.m in Sources */,
+				940A88531F53BC5F00557C79 /* HubViewController.m in Sources */,
 				94B295AD1F4FAAFA0026D58B /* LXOrderStatusController.m in Sources */,
 				9414E3BD1F4EABB500A4E0D3 /* IQUIView+Hierarchy.m in Sources */,
 				9414E3BA1F4EABB500A4E0D3 /* IQNSArray+Sort.m in Sources */,
+				940A88751F53BC7100557C79 /* ArcProgress.m in Sources */,
 				9414E3551F4EA8D400A4E0D3 /* main.m in Sources */,
 				9414E3FD1F4EAC9400A4E0D3 /* NSObject+NCJudege.m in Sources */,
 				9414E4711F4EAE9500A4E0D3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				940A88501F53BC5F00557C79 /* Arc2ViewController.m in Sources */,
 				9414E4B21F4ECE0F00A4E0D3 /* LXCustomPSController.m in Sources */,
 				9414E3F81F4EAC9400A4E0D3 /* MBProgressHUD+Add.m in Sources */,
 				9414E49E1F4EC2D200A4E0D3 /* LXCardSearchView.m in Sources */,
@@ -1539,6 +1703,7 @@
 				9414E46B1F4EAE6000A4E0D3 /* UITextField+TintAjust.m in Sources */,
 				9414E45B1F4EAD0B00A4E0D3 /* TAPageControl.m in Sources */,
 				9414E3D81F4EAC7800A4E0D3 /* QBQuSegmentView.m in Sources */,
+				940A88791F53BC7100557C79 /* UIView+RadarAnimation.m in Sources */,
 				9414E41F1F4EACE300A4E0D3 /* CitiesDataTool.m in Sources */,
 				9414E41B1F4EACE300A4E0D3 /* AddressTableViewCell.m in Sources */,
 				9414E4921F4EBE9A00A4E0D3 /* LXSegmentController.m in Sources */,
@@ -1549,6 +1714,7 @@
 				9414E3C51F4EABB500A4E0D3 /* IQTitleBarButtonItem.m in Sources */,
 				9414E4641F4EAD6800A4E0D3 /* LBHTTPTool.m in Sources */,
 				9414E45E1F4EAD0B00A4E0D3 /* UIView+SDExtension.m in Sources */,
+				940A88511F53BC5F00557C79 /* ArcViewController.m in Sources */,
 				9414E4E91F4EDD5100A4E0D3 /* LXAlertViewController.m in Sources */,
 				9414E4781F4EB07600A4E0D3 /* LXNavController.m in Sources */,
 				9414E4E01F4EDB4000A4E0D3 /* LXCustomAlert.m in Sources */,
@@ -1559,6 +1725,8 @@
 				9414E4DF1F4EDB4000A4E0D3 /* LXAlertView.m in Sources */,
 				9414E4591F4EAD0B00A4E0D3 /* TAAnimatedDotView.m in Sources */,
 				94B296201F4FAD6E0026D58B /* LXControlView.m in Sources */,
+				940A88771F53BC7100557C79 /* LXWave.m in Sources */,
+				940A88781F53BC7100557C79 /* LXWaveProgress.m in Sources */,
 				9414E3D71F4EAC7800A4E0D3 /* LXTextView.m in Sources */,
 				9414E4BB1F4ECFBE00A4E0D3 /* GFAddressPicker.m in Sources */,
 				9414E3FC1F4EAC9400A4E0D3 /* NSMutableDictionary+NCSign.m in Sources */,
@@ -1568,10 +1736,12 @@
 				9414E4961F4EC23400A4E0D3 /* AppleSystemService.m in Sources */,
 				9414E3FA1F4EAC9400A4E0D3 /* NSDictionary+Log.m in Sources */,
 				9414E3C21F4EABB500A4E0D3 /* IQTextView.m in Sources */,
+				940A88551F53BC5F00557C79 /* RoundViewController.m in Sources */,
 				9414E4031F4EAC9400A4E0D3 /* UIView+FTCornerdious.m in Sources */,
 				9414E4431F4EACF900A4E0D3 /* UIView+WZLBadge.m in Sources */,
 				9414E49A1F4EC2C700A4E0D3 /* LXCustomSearchController.m in Sources */,
 				9414E41D1F4EACE300A4E0D3 /* AddressView.m in Sources */,
+				940A88721F53BC7100557C79 /* LXHubView.m in Sources */,
 				94B296211F4FAD6E0026D58B /* LXPlayerModel.m in Sources */,
 				9414E4841F4EB1C800A4E0D3 /* LXSpecialRootController.m in Sources */,
 				9414E3D61F4EAC7800A4E0D3 /* LxButton.m in Sources */,

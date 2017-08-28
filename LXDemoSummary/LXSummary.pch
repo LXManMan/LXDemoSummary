@@ -89,7 +89,7 @@
 #import "LXAlertView.h"
 #import "NSObject+NCJudege.h"
 #import "NCLog.h"
-
+#import "LXBasicController.h"
 #import "NSString+NCDate.h"
 #import "UILabel+YBAttributeTextTapAction.h"
 
