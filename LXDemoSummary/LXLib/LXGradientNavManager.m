@@ -43,6 +43,7 @@
         UIImage *image =[self imageWithColor:defaultColor];
 
         [[self sharedManager].selfNavigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+        
     }else{
         CGFloat alpha = y /[self sharedManager].fullAlphaOffset;
         
@@ -57,10 +58,19 @@
     [[self sharedManager].selfNavigationController setValue:[UINavigationBar new] forKey:@"navigationBar"];
 }
 + (void)resStoreToDefaultNavigationBar{
-    UIImage *image =[self imageWithColor:[self sharedManager].defaultColor];
+    
+    
+    UIImage *image =  [self imageWithColor:[self sharedManager].defaultColor];
 
+   
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
-    attributes[NSForegroundColorAttributeName] = [UIColor hexStringToColor:@"3c3c3c"];
+    UIColor *titleColor;
+    if ([self sharedManager].titleColor) {
+        titleColor = [self sharedManager].titleColor;
+    }else{
+        titleColor = [UIColor hexStringToColor:@"3c3c3c"];
+    }
+    attributes[NSForegroundColorAttributeName] = titleColor ;
     
     [[self sharedManager].selfNavigationBar setTitleTextAttributes:attributes];
     [[self sharedManager].selfNavigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
@@ -85,12 +95,18 @@
    
     
 }
++ (void)setOrignImage:(UIImage *)orignImage{
+    
+    [self sharedManager].orignImage = orignImage;
+    
+     [[self sharedManager].selfNavigationBar setBackgroundImage:orignImage forBarMetrics:UIBarMetricsDefault];
+}
 +(void)setOrignColor:(UIColor *)color{
     [self sharedManager].orignColor = color;
     
     [[self sharedManager].selfNavigationBar setBackgroundImage:[self imageWithColor:color] forBarMetrics:UIBarMetricsDefault];
     
-
+    
     
 }
 

@@ -8,13 +8,16 @@
 //
 
 #import "LXSpecialRootController.h"
-
+#import "MyListCell.h"
 @interface LXSpecialRootController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableview;
 @property(nonatomic,strong)NSMutableArray *datas;
+@property(nonatomic,strong)NSArray *detailTitleA;
+
 @end
 
 @implementation LXSpecialRootController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +25,10 @@
     self.navigationItem.title = @"特效";
 
     [self.view addSubview:self.tableview];
+    
+    //    self.tableview.estimatedRowHeight = 44;
+    self.tableview.rowHeight = 50;
+    [self.tableview registerNib:[UINib nibWithNibName:@"MyListCell" bundle:nil] forCellReuseIdentifier:@"cell"];
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -29,12 +36,14 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (!cell) {
-        cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
+    MyListCell *cell =[tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell =[[MyListCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = self.datas[indexPath.row];
+    cell.descrLabel.text = self.datas[indexPath.row];
+    
+    cell.titleLabel.text = self.detailTitleA[indexPath.row];
+
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
@@ -71,12 +80,18 @@
         _tableview.dataSource = self;
         _tableview.showsHorizontalScrollIndicator = NO;
         _tableview.showsVerticalScrollIndicator = YES;
+        _tableview.separatorStyle = 0;
         [_tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
         _tableview.tableFooterView =[UIView new];
     }
     return _tableview;
 }
 
-
+-(NSArray *)detailTitleA{
+    if (!_detailTitleA) {
+        _detailTitleA = @[@"扇形进度",@"圆形进度条",@"渐变色进度",@"自定义密码键盘",@"自定义HUD",@"波浪进度",@"小船",@"扩散动画"];
+    }
+    return _detailTitleA;
+}
 
 @end

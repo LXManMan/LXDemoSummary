@@ -14,4 +14,7 @@
 +(NSInteger)getNowInterVal;//获取当前的时间戳
 +(NSString *)getNowTime;//获取当前的时间字符串
 +(NSString *)formateDateToDay:(NSString *)string;//时间戳转换为时间
+
++(NSString *)getWeekFirstDay;
++(NSString *)getMonthFirstDay;
 @end

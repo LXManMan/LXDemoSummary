@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 @interface LXGradientNavManager : NSObject
 @property(nonatomic,strong)UIColor *defaultColor; //默认的Nav的颜色
+@property(nonatomic,strong)UIImage *orignImage; //开始的的Nav的背景图
 
 @property(nonatomic,strong)UIColor *orignColor; //最开始的颜色
 @property(nonatomic,strong)UIColor *titleColor; //最开始的颜色
@@ -17,15 +18,20 @@
 
 @property (nonatomic, assign) float fullAlphaOffset;
 
-+(void)setOrignColor:(UIColor *)color;
++(void)setOrignColor:(UIColor *)color; //开始的颜色
 
-+ (void)setDefaultColor:(UIColor *)color;
++ (void)setDefaultColor:(UIColor *)color; //默认的颜色
+
++ (void)setOrignImage:(UIImage *)orignImage; //开始的图片
+
 
 + (void)setZeroAlphaOffset:(float)offset;
 
 + (void)setFullAlphaOffset:(float)offset;
 
-+(void)setNavTitleColor:(UIColor *)color;
++(void)setNavTitleColor:(UIColor *)color; //navbar 文字的颜色
+
+
 +(void)managerWithController:(UIViewController *)viewController;
 
 +(void)dealGradientWithScrollView:(UIScrollView *)scrollView;
