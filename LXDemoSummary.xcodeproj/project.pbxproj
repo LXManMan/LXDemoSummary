@@ -141,6 +141,7 @@
 		945B5E321F53C71C008D0723 /* LXGradientNavbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B5E311F53C71C008D0723 /* LXGradientNavbarController.m */; };
 		946B7C021F57E7AE0038024B /* MyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 946B7C001F57E7AE0038024B /* MyListCell.m */; };
 		946B7C031F57E7AE0038024B /* MyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B7C011F57E7AE0038024B /* MyListCell.xib */; };
+		947524951F58F751009B394E /* UIScrollView+Scroll_FD.m in Sources */ = {isa = PBXBuildFile; fileRef = 947524941F58F751009B394E /* UIScrollView+Scroll_FD.m */; };
 		94B295AD1F4FAAFA0026D58B /* LXOrderStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B295AC1F4FAAFA0026D58B /* LXOrderStatusController.m */; };
 		94B295B51F4FAB560026D58B /* FTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B295B41F4FAB560026D58B /* FTProgressView.m */; };
 		94B295B91F4FAD200026D58B /* LBPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B295B81F4FAD200026D58B /* LBPlayViewController.m */; };
@@ -475,6 +476,8 @@
 		946B7BFF1F57E7AE0038024B /* MyListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListCell.h; sourceTree = "<group>"; };
 		946B7C001F57E7AE0038024B /* MyListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListCell.m; sourceTree = "<group>"; };
 		946B7C011F57E7AE0038024B /* MyListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyListCell.xib; sourceTree = "<group>"; };
+		947524931F58F751009B394E /* UIScrollView+Scroll_FD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Scroll_FD.h"; sourceTree = "<group>"; };
+		947524941F58F751009B394E /* UIScrollView+Scroll_FD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Scroll_FD.m"; sourceTree = "<group>"; };
 		94B295AB1F4FAAFA0026D58B /* LXOrderStatusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOrderStatusController.h; sourceTree = "<group>"; };
 		94B295AC1F4FAAFA0026D58B /* LXOrderStatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOrderStatusController.m; sourceTree = "<group>"; };
 		94B295B31F4FAB560026D58B /* FTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressView.h; sourceTree = "<group>"; };
@@ -851,6 +854,8 @@
 				9414E3F51F4EAC9400A4E0D3 /* UIView+Toast.m */,
 				9414E3F61F4EAC9400A4E0D3 /* UIViewAdditions.h */,
 				9414E3F71F4EAC9400A4E0D3 /* UIViewAdditions.m */,
+				947524931F58F751009B394E /* UIScrollView+Scroll_FD.h */,
+				947524941F58F751009B394E /* UIScrollView+Scroll_FD.m */,
 			);
 			path = LXCategory;
 			sourceTree = "<group>";
@@ -1890,6 +1895,7 @@
 				9414E4921F4EBE9A00A4E0D3 /* LXSegmentController.m in Sources */,
 				9414E4421F4EACF900A4E0D3 /* CAAnimation+WAnimation.m in Sources */,
 				94422E2F1F57DEF1006A24A5 /* LXArticleController.m in Sources */,
+				947524951F58F751009B394E /* UIScrollView+Scroll_FD.m in Sources */,
 				9414E3C01F4EABB500A4E0D3 /* IQKeyboardManager.m in Sources */,
 				9414E3C61F4EABB500A4E0D3 /* IQToolbar.m in Sources */,
 				9414E4021F4EAC9400A4E0D3 /* UILabel+LXLabel.m in Sources */,
