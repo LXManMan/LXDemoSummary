@@ -89,7 +89,7 @@
 
 -(NSArray *)detailTitleA{
     if (!_detailTitleA) {
-        _detailTitleA = @[@"扇形进度",@"圆形进度条",@"渐变色进度",@"自定义密码键盘",@"自定义HUD",@"波浪进度",@"小船",@"扩散动画"];
+        _detailTitleA = @[@"扇形进度",@"圆形进度条",@"渐变色进度",@"自定义HUD",@"波纹进度",@"小船",@"扩散动画"];
     }
     return _detailTitleA;
 }

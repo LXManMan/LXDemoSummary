@@ -17,6 +17,11 @@
     [super viewWillDisappear:animated];
     [LXGradientNavManager resStoreToDefaultNavigationBar];
 }
+
+-(void)viewDidAppear:(BOOL)animated{
+    [self scrollViewDidScroll:self.tableView];
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     

@@ -19,6 +19,11 @@
     [LXGradientNavManager resStoreToDefaultNavigationBar];
 
 }
+-(void)viewDidAppear:(BOOL)animated{
+     UIImage *image =[UIImage createGradientImageWithRect:CGRectMake(0, 0, Device_Width, 64) startColor:[UIColor hexStringToColor:@"#5F98FC"] endColor:[UIColor hexStringToColor:@"#f0f5f5"]];
+    [LXGradientNavManager setOrignImage:image];
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
