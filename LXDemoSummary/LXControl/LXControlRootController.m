@@ -74,13 +74,13 @@
 }
 -(NSArray *)controllerData{
     if (!_controllerData) {
-        _controllerData =  @[@"LXSegment",@"LXCustomSearch",@"LXChooseLocation",@"LXCustomPS",@"LXAddressSelect",@"LXTimeSelect",@"LXDropView",@"LXAlertView",@"LXOrderStatus",@"LBPlayView",@"LXHotword",@"LXPullDown",@"LXGradientNavbar",@"LXPullGradient",@"LXCustom"];
+        _controllerData =  @[@"LXSegment",@"LXCustomSearch",@"LXChooseLocation",@"LXCustomPS",@"LXAddressSelect",@"LXTimeSelect",@"LXDropView",@"LXAlertView",@"LXOrderStatus",@"LBPlayView",@"LXHotword",@"LXPullDown",@"LXGradientNavbar",@"LXPullGradient",@"LXCustom",@"LXWebImageGif"];
     }
     return _controllerData;
 }
 -(NSArray *)detailTitleA{
     if (!_detailTitleA) {
-        _detailTitleA = @[@"分段控制器",@"自定义搜索",@"仿京东地址选择",@"自定义密码键盘",@"地址选择器",@"时间选择器",@"任意点点击弹框",@"自定义弹框",@"收货进度条",@"自定义AVPlayer播放器",@"热词以及历史记录封装",@"下拉一体封装",@"一个渐变色的Navbar",@"下拉渐变Navbar",@"仿简书个人中心"];
+        _detailTitleA = @[@"分段控制器",@"自定义搜索",@"仿京东地址选择",@"自定义密码键盘",@"地址选择器",@"时间选择器",@"任意点点击弹框",@"自定义弹框",@"收货进度条",@"自定义AVPlayer播放器",@"热词以及历史记录封装",@"下拉一体封装",@"一个渐变色的Navbar",@"下拉渐变Navbar",@"仿简书个人中心",@"YYWebImage进度加载Gif动画效果"];
     }
     return _detailTitleA;
 }

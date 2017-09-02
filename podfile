@@ -12,4 +12,5 @@ target  ‘LXDemoSummary’ do
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'FMDB'
+  pod 'YYWebImage'
 end

@@ -26,16 +26,44 @@
     [IQKeyboardManager sharedManager].enableAutoToolbar = NO; //辅助键盘关闭
     [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     
+
+      //[NSThread sleepForTimeInterval:3.0];//设置启动页面时间
      self.window.rootViewController =  [[LXTabbarController alloc]init];
     
     self.window.backgroundColor =[UIColor whiteColor];
     
-    //初始化城市选择器数据
+    
+    UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
+    
+    UIView *launchView = viewController.view;
+    launchView.frame = self.window.frame;
+    
+    YYAnimatedImageView *imageView =[[YYAnimatedImageView alloc]initWithFrame:self.window.frame];
+    
+    
+    YYImage *image = [YYImage imageNamed:@"niconiconi"];
+    imageView.image = image;
+    [launchView addSubview:imageView];
+
+    //修改为加载到rootVC上
+    [self.window.rootViewController.view addSubview:launchView];
+    
+    [UIView animateWithDuration:1.0f delay:0.5f options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        launchView.alpha = 0.0f;
+        launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
+    } completion:^(BOOL finished) {
+        
+        [launchView removeFromSuperview];
+        
+    }];
+       //初始化城市选择器数据
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         
         [[CitiesDataTool sharedManager] requestGetData];
     });
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

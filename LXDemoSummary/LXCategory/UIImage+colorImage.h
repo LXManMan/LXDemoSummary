@@ -17,4 +17,8 @@
 //防止渲染 
 + (instancetype)imageWithOriginalName:(NSString *)imageName;
 
+//原形图片
+- (instancetype)ai_circleImage;
+
++ (instancetype)ai_circleImage:(NSString *)name;
 @end

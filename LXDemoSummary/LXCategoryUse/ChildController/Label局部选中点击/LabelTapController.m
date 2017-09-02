@@ -7,7 +7,7 @@
 //
 
 #import "LabelTapController.h"
-
+#import "NextController.h"
 @interface LabelTapController ()
 
 @end
@@ -35,6 +35,8 @@
     
     [label yb_addAttributeTapActionWithStrings:@[@"简介详情"] tapClicked:^(NSString *string, NSRange range, NSInteger index) {
         NSLog(@"点击了%@",string);
+        NextController *nextVc =[[NextController alloc]init];
+        [self.navigationController pushViewController:nextVc animated:YES];
     }];
     
 }

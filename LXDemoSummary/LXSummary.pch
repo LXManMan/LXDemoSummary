@@ -92,5 +92,5 @@
 #import "LXBasicController.h"
 #import "NSString+NCDate.h"
 #import "UILabel+YBAttributeTextTapAction.h"
-
+#import <YYWebImage.h>
 #endif /* LXSummary_pch */

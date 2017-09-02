@@ -69,5 +69,37 @@ void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor
     CGColorSpaceRelease(colorSpace);
     // More coming...
 }
+- (instancetype)ai_circleImage{
+    
+    //开启上下文
+    UIGraphicsBeginImageContext(self.size);
+    
+    //上下文
+    CGContextRef ref = UIGraphicsGetCurrentContext();
+    
+    
+    //添加一个圈
+    CGRect rect = CGRectMake(0, 0, self.size.width, self.size.height);
+    
+    CGContextAddEllipseInRect(ref, rect);
+    
+    //裁剪
+    CGContextClip(ref);
+    
+    //画在上下文
+    [self drawInRect:rect];
+    
+    //获得新的图片
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
++ (instancetype)ai_circleImage:(NSString *)name{
+    return [[self imageNamed:name] ai_circleImage];
+    
+}
 
 @end
