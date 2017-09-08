@@ -66,13 +66,13 @@
 }
 -(NSArray *)controllerData{
     if (!_controllerData) {
-        _controllerData =  @[@"LabelTap"];
+        _controllerData =  @[@"LabelTap",@"LXButtonTapInterval",@"LXButtonClickDelay"];
     }
     return _controllerData;
 }
 -(NSArray *)detailTitleA{
     if (!_detailTitleA) {
-        _detailTitleA = @[@"文字局部点击"];
+        _detailTitleA = @[@"文字局部点击",@"button 点击间隔",@"按钮点击延迟"];
     }
     return _detailTitleA;
 }

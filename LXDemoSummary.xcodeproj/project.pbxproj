@@ -29,6 +29,10 @@
 		940A88921F53C29C00557C79 /* LXPullDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A888D1F53C29C00557C79 /* LXPullDownController.m */; };
 		940A88931F53C29C00557C79 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 940A88901F53C29C00557C79 /* Header.m */; };
 		940A88941F53C29C00557C79 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940A88911F53C29C00557C79 /* Header.xib */; };
+		94120DA01F626B980024D473 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 94120D9D1F626B980024D473 /* UIButton+Delay.m */; };
+		94120DA11F626B980024D473 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 94120D9F1F626B980024D473 /* UIButton+touch.m */; };
+		94120DA51F626CEF0024D473 /* LXButtonTapIntervalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94120DA41F626CEF0024D473 /* LXButtonTapIntervalController.m */; };
+		94120DA91F6272B60024D473 /* LXButtonClickDelayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94120DA81F6272B60024D473 /* LXButtonClickDelayController.m */; };
 		9414E3551F4EA8D400A4E0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3541F4EA8D400A4E0D3 /* main.m */; };
 		9414E3581F4EA8D400A4E0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3571F4EA8D400A4E0D3 /* AppDelegate.m */; };
 		9414E35E1F4EA8D400A4E0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9414E35C1F4EA8D400A4E0D3 /* Main.storyboard */; };
@@ -275,6 +279,14 @@
 		940A888F1F53C29C00557C79 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		940A88901F53C29C00557C79 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		940A88911F53C29C00557C79 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		94120D9C1F626B980024D473 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		94120D9D1F626B980024D473 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; wrapsLines = 1; };
+		94120D9E1F626B980024D473 /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		94120D9F1F626B980024D473 /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; wrapsLines = 1; };
+		94120DA31F626CEF0024D473 /* LXButtonTapIntervalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXButtonTapIntervalController.h; sourceTree = "<group>"; };
+		94120DA41F626CEF0024D473 /* LXButtonTapIntervalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXButtonTapIntervalController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		94120DA71F6272B60024D473 /* LXButtonClickDelayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXButtonClickDelayController.h; sourceTree = "<group>"; };
+		94120DA81F6272B60024D473 /* LXButtonClickDelayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXButtonClickDelayController.m; sourceTree = "<group>"; };
 		9414E3501F4EA8D400A4E0D3 /* LXDemoSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDemoSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9414E3541F4EA8D400A4E0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9414E3561F4EA8D400A4E0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -347,7 +359,7 @@
 		9414E3E51F4EAC9400A4E0D3 /* NSMutableDictionary+NCSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NCSign.m"; sourceTree = "<group>"; };
 		9414E3E61F4EAC9400A4E0D3 /* NSObject+NCJudege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NCJudege.h"; sourceTree = "<group>"; };
 		9414E3E71F4EAC9400A4E0D3 /* NSObject+NCJudege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NCJudege.m"; sourceTree = "<group>"; };
-		9414E3E81F4EAC9400A4E0D3 /* NSString+NCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NCDate.h"; sourceTree = "<group>"; };
+		9414E3E81F4EAC9400A4E0D3 /* NSString+NCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NCDate.h"; sourceTree = "<group>"; wrapsLines = 1; };
 		9414E3E91F4EAC9400A4E0D3 /* NSString+NCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NCDate.m"; sourceTree = "<group>"; };
 		9414E3EC1F4EAC9400A4E0D3 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		9414E3ED1F4EAC9400A4E0D3 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
@@ -773,6 +785,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		94120D9B1F626B980024D473 /* UIButton-touch */ = {
+			isa = PBXGroup;
+			children = (
+				94120D9C1F626B980024D473 /* UIButton+Delay.h */,
+				94120D9D1F626B980024D473 /* UIButton+Delay.m */,
+				94120D9E1F626B980024D473 /* UIButton+touch.h */,
+				94120D9F1F626B980024D473 /* UIButton+touch.m */,
+			);
+			path = "UIButton-touch";
+			sourceTree = "<group>";
+		};
+		94120DA21F626C9C0024D473 /* 按钮点击间隔 */ = {
+			isa = PBXGroup;
+			children = (
+				94120DA31F626CEF0024D473 /* LXButtonTapIntervalController.h */,
+				94120DA41F626CEF0024D473 /* LXButtonTapIntervalController.m */,
+			);
+			path = "按钮点击间隔";
+			sourceTree = "<group>";
+		};
+		94120DA61F6272A60024D473 /* 按钮点击延迟 */ = {
+			isa = PBXGroup;
+			children = (
+				94120DA71F6272B60024D473 /* LXButtonClickDelayController.h */,
+				94120DA81F6272B60024D473 /* LXButtonClickDelayController.m */,
+			);
+			path = "按钮点击延迟";
+			sourceTree = "<group>";
+		};
 		9414E3471F4EA8D400A4E0D3 = {
 			isa = PBXGroup;
 			children = (
@@ -784,7 +825,7 @@
 				4474259C49838D819851C0CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
-			wrapsLines = 0;
+			wrapsLines = 1;
 		};
 		9414E3511F4EA8D400A4E0D3 /* Products */ = {
 			isa = PBXGroup;
@@ -889,6 +930,7 @@
 		9414E3911F4EAB7100A4E0D3 /* LXCategory */ = {
 			isa = PBXGroup;
 			children = (
+				94120D9B1F626B980024D473 /* UIButton-touch */,
 				942B4F8B1F5A87CC009A0286 /* UIView+YYAdd.h */,
 				942B4F8C1F5A87CC009A0286 /* UIView+YYAdd.m */,
 				942B4F881F5A87C3009A0286 /* CALayer+YYAdd.h */,
@@ -1503,6 +1545,8 @@
 		94422E371F57E0D1006A24A5 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				94120DA61F6272A60024D473 /* 按钮点击延迟 */,
+				94120DA21F626C9C0024D473 /* 按钮点击间隔 */,
 				94422E381F57E11B006A24A5 /* Label局部选中点击 */,
 			);
 			path = ChildController;
@@ -1997,6 +2041,7 @@
 				9414E4051F4EAC9400A4E0D3 /* UIViewAdditions.m in Sources */,
 				94B2962A1F4FB2D50026D58B /* LXDropView.m in Sources */,
 				9414E48D1F4EB37200A4E0D3 /* UIImage+colorImage.m in Sources */,
+				94120DA51F626CEF0024D473 /* LXButtonTapIntervalController.m in Sources */,
 				9414E3C11F4EABB500A4E0D3 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				940A88571F53BC5F00557C79 /* WaveViewController.m in Sources */,
 				9414E4301F4EACF300A4E0D3 /* UIView+SDAutoLayout.m in Sources */,
@@ -2077,6 +2122,7 @@
 				9414E46E1F4EAE9000A4E0D3 /* LXGradientNavManager.m in Sources */,
 				9414E46B1F4EAE6000A4E0D3 /* UITextField+TintAjust.m in Sources */,
 				9414E45B1F4EAD0B00A4E0D3 /* TAPageControl.m in Sources */,
+				94120DA01F626B980024D473 /* UIButton+Delay.m in Sources */,
 				9414E3D81F4EAC7800A4E0D3 /* QBQuSegmentView.m in Sources */,
 				947FDB7C1F5D370800FC3670 /* JiuGGView.m in Sources */,
 				94422E331F57DEF1006A24A5 /* AvatarView.m in Sources */,
@@ -2090,6 +2136,7 @@
 				94422E2F1F57DEF1006A24A5 /* LXArticleController.m in Sources */,
 				947524951F58F751009B394E /* UIScrollView+Scroll_FD.m in Sources */,
 				9414E3C01F4EABB500A4E0D3 /* IQKeyboardManager.m in Sources */,
+				94120DA91F6272B60024D473 /* LXButtonClickDelayController.m in Sources */,
 				9414E3C61F4EABB500A4E0D3 /* IQToolbar.m in Sources */,
 				9414E4021F4EAC9400A4E0D3 /* UILabel+LXLabel.m in Sources */,
 				9414E3C51F4EABB500A4E0D3 /* IQTitleBarButtonItem.m in Sources */,
@@ -2124,6 +2171,7 @@
 				940A88551F53BC5F00557C79 /* RoundViewController.m in Sources */,
 				942B4F8D1F5A87CC009A0286 /* UIView+YYAdd.m in Sources */,
 				9414E4031F4EAC9400A4E0D3 /* UIView+FTCornerdious.m in Sources */,
+				94120DA11F626B980024D473 /* UIButton+touch.m in Sources */,
 				9414E4431F4EACF900A4E0D3 /* UIView+WZLBadge.m in Sources */,
 				9414E49A1F4EC2C700A4E0D3 /* LXCustomSearchController.m in Sources */,
 				9414E41D1F4EACE300A4E0D3 /* AddressView.m in Sources */,

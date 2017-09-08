@@ -53,7 +53,7 @@
     
     NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
     // 设置日期格式(为了转换成功)
-    fmt.dateFormat = @"yyyy-MM-dd HH:mm";
+    fmt.dateFormat = @"yyyy-MM-dd HH:mm:ss";
     NSString *dateStr =[fmt stringFromDate:date];
     return dateStr;
 }
