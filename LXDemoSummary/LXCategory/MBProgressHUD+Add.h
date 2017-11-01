@@ -6,8 +6,8 @@
 //  Copyright © 2016年  ldmac. All rights reserved.
 //
 
-#import "MBProgressHUD.h"
 
+#import <MBProgressHUD.h>
 @interface MBProgressHUD (Add)
 + (void)showLoadinginView:(UIView *)view;//占位图
 + (void)showError:(NSString *)error toView:(UIView *)view;

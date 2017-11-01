@@ -21,12 +21,9 @@
     UIImage *image =[UIImage imageNamed:@"loadingImage"];
     hud.customView = [[UIImageView alloc] initWithImage:image];    // 再设置模式
     
-    hud.bezelView.backgroundColor =[UIColor whiteColor];
-    hud.backgroundView.backgroundColor =[UIColor whiteColor];
     // 隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
     
- 
 }
 + (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view
 {

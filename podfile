@@ -13,4 +13,5 @@ target  ‘LXDemoSummary’ do
   pod 'MJExtension'
   pod 'FMDB'
   pod 'YYWebImage'
+  pod "MWPhotoBrowser"
 end

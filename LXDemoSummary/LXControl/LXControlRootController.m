@@ -29,7 +29,7 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    NSLog(@"%s",__func__);
+//    NSLog(@"%s",__func__);
 
 }
 

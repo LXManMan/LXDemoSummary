@@ -40,8 +40,6 @@
 		9414E3631F4EA8D400A4E0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9414E3611F4EA8D400A4E0D3 /* LaunchScreen.storyboard */; };
 		9414E36E1F4EA8D400A4E0D3 /* LXDemoSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E36D1F4EA8D400A4E0D3 /* LXDemoSummaryTests.m */; };
 		9414E3791F4EA8D400A4E0D3 /* LXDemoSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3781F4EA8D400A4E0D3 /* LXDemoSummaryUITests.m */; };
-		9414E38E1F4EAB3700A4E0D3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9414E38A1F4EAB3700A4E0D3 /* LICENSE */; };
-		9414E38F1F4EAB3700A4E0D3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E38C1F4EAB3700A4E0D3 /* MBProgressHUD.m */; };
 		9414E3BA1F4EABB500A4E0D3 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E3981F4EABB500A4E0D3 /* IQNSArray+Sort.m */; };
 		9414E3BB1F4EABB500A4E0D3 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E39A1F4EABB500A4E0D3 /* IQUIScrollView+Additions.m */; };
 		9414E3BC1F4EABB500A4E0D3 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E39C1F4EABB500A4E0D3 /* IQUITextFieldView+Additions.m */; };
@@ -219,6 +217,9 @@
 		94B296281F4FB2D50026D58B /* LXDropListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B296241F4FB2D50026D58B /* LXDropListCell.m */; };
 		94B296291F4FB2D50026D58B /* LXDropListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B296251F4FB2D50026D58B /* LXDropListCell.xib */; };
 		94B2962A1F4FB2D50026D58B /* LXDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B296271F4FB2D50026D58B /* LXDropView.m */; };
+		F33679991FA9711000FC6950 /* LXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F33679981FA9711000FC6950 /* LXTabBar.m */; };
+		F336799D1FA973ED00FC6950 /* LXPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F336799C1FA973ED00FC6950 /* LXPersonController.m */; };
+		F33679A11FA9741B00FC6950 /* LXPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33679A01FA9741B00FC6950 /* LXPublishController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -302,9 +303,6 @@
 		9414E3781F4EA8D400A4E0D3 /* LXDemoSummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDemoSummaryUITests.m; sourceTree = "<group>"; };
 		9414E37A1F4EA8D400A4E0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9414E3861F4EA9F100A4E0D3 /* LXSummary.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LXSummary.pch; path = ../LXSummary.pch; sourceTree = "<group>"; };
-		9414E38A1F4EAB3700A4E0D3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9414E38B1F4EAB3700A4E0D3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		9414E38C1F4EAB3700A4E0D3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9414E3971F4EABB500A4E0D3 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		9414E3981F4EABB500A4E0D3 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
 		9414E3991F4EABB500A4E0D3 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
@@ -609,6 +607,12 @@
 		94B296271F4FB2D50026D58B /* LXDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDropView.m; sourceTree = "<group>"; };
 		AE773B8AC3BF2D20E1DC81F9 /* Pods-LXDemoSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDemoSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXDemoSummary/Pods-LXDemoSummary.debug.xcconfig"; sourceTree = "<group>"; };
 		D309089DD7150DED8111B3CA /* libPods-LXDemoSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXDemoSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33679971FA9711000FC6950 /* LXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTabBar.h; sourceTree = "<group>"; };
+		F33679981FA9711000FC6950 /* LXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTabBar.m; sourceTree = "<group>"; };
+		F336799B1FA973ED00FC6950 /* LXPersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPersonController.h; sourceTree = "<group>"; };
+		F336799C1FA973ED00FC6950 /* LXPersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPersonController.m; sourceTree = "<group>"; };
+		F336799F1FA9741B00FC6950 /* LXPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPublishController.h; sourceTree = "<group>"; };
+		F33679A01FA9741B00FC6950 /* LXPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPublishController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -843,6 +847,8 @@
 				9414E3561F4EA8D400A4E0D3 /* AppDelegate.h */,
 				9414E3571F4EA8D400A4E0D3 /* AppDelegate.m */,
 				9414E4721F4EB01B00A4E0D3 /* LXBase */,
+				F336799E1FA9741000FC6950 /* LXPublish */,
+				F336799A1FA973DE00FC6950 /* LXPerson */,
 				9414E47C1F4EB15000A4E0D3 /* LXControl */,
 				9414E47D1F4EB16700A4E0D3 /* LXSpecialEffect */,
 				9414E47E1F4EB17A00A4E0D3 /* LXCategoryUse */,
@@ -912,19 +918,8 @@
 				9414E4311F4EACF900A4E0D3 /* WZLBadge */,
 				9414E4291F4EACF300A4E0D3 /* SDAutoLayout */,
 				9414E3951F4EABB500A4E0D3 /* IQKeyboardManager */,
-				9414E3891F4EAB3700A4E0D3 /* MBProgressHUD */,
 			);
 			path = LXLib;
-			sourceTree = "<group>";
-		};
-		9414E3891F4EAB3700A4E0D3 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				9414E38A1F4EAB3700A4E0D3 /* LICENSE */,
-				9414E38B1F4EAB3700A4E0D3 /* MBProgressHUD.h */,
-				9414E38C1F4EAB3700A4E0D3 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		9414E3911F4EAB7100A4E0D3 /* LXCategory */ = {
@@ -1272,6 +1267,8 @@
 				9414E4771F4EB07600A4E0D3 /* LXNavController.m */,
 				9414E4791F4EB08C00A4E0D3 /* LXBasicController.h */,
 				9414E47A1F4EB08C00A4E0D3 /* LXBasicController.m */,
+				F33679971FA9711000FC6950 /* LXTabBar.h */,
+				F33679981FA9711000FC6950 /* LXTabBar.m */,
 			);
 			path = LXBase;
 			sourceTree = "<group>";
@@ -1791,6 +1788,24 @@
 			path = DropView;
 			sourceTree = "<group>";
 		};
+		F336799A1FA973DE00FC6950 /* LXPerson */ = {
+			isa = PBXGroup;
+			children = (
+				F336799B1FA973ED00FC6950 /* LXPersonController.h */,
+				F336799C1FA973ED00FC6950 /* LXPersonController.m */,
+			);
+			path = LXPerson;
+			sourceTree = "<group>";
+		};
+		F336799E1FA9741000FC6950 /* LXPublish */ = {
+			isa = PBXGroup;
+			children = (
+				F336799F1FA9741B00FC6950 /* LXPublishController.h */,
+				F33679A01FA9741B00FC6950 /* LXPublishController.m */,
+			);
+			path = LXPublish;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1929,7 +1944,6 @@
 				9414E4B81F4ECF2E00A4E0D3 /* Address.plist in Resources */,
 				942B4FA61F5AAF48009A0286 /* Default@2x.jpg in Resources */,
 				9414E4E11F4EDB4000A4E0D3 /* LXCustomAlert.xib in Resources */,
-				9414E38E1F4EAB3700A4E0D3 /* LICENSE in Resources */,
 				9414E4AE1F4EC9C000A4E0D3 /* Cities.json in Resources */,
 				9414E41C1F4EACE300A4E0D3 /* AddressTableViewCell.xib in Resources */,
 				94B295FB1F4FAD420026D58B /* search6.png in Resources */,
@@ -2054,6 +2068,7 @@
 				940A88561F53BC5F00557C79 /* ShipeViewController.m in Sources */,
 				9414E3BB1F4EABB500A4E0D3 /* IQUIScrollView+Additions.m in Sources */,
 				940A88741F53BC7100557C79 /* LXCircle.m in Sources */,
+				F336799D1FA973ED00FC6950 /* LXPersonController.m in Sources */,
 				942B4F871F5A87BE009A0286 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				947FDBDB1F5D7A6000FC3670 /* LXLineLayout.m in Sources */,
 				9414E3D41F4EAC7800A4E0D3 /* ChineseToPinyin.m in Sources */,
@@ -2075,6 +2090,7 @@
 				9414E4581F4EAD0B00A4E0D3 /* TAAbstractDotView.m in Sources */,
 				94422E311F57DEF1006A24A5 /* LXMoreController.m in Sources */,
 				9414E4C71F4ED3C800A4E0D3 /* LXDropViewController.m in Sources */,
+				F33679991FA9711000FC6950 /* LXTabBar.m in Sources */,
 				9414E4401F4EACF900A4E0D3 /* UIBarButtonItem+WZLBadge.m in Sources */,
 				9414E3F91F4EAC9400A4E0D3 /* NSArray+Log.m in Sources */,
 				9414E4811F4EB1B900A4E0D3 /* LXControlRootController.m in Sources */,
@@ -2089,6 +2105,7 @@
 				942B4F9C1F5A883C009A0286 /* MyModel.m in Sources */,
 				9414E4A21F4EC54800A4E0D3 /* LXSegmentOneController.m in Sources */,
 				9414E48A1F4EB21C00A4E0D3 /* LXRootUseController.m in Sources */,
+				F33679A11FA9741B00FC6950 /* LXPublishController.m in Sources */,
 				9414E4001F4EAC9400A4E0D3 /* UIButton+ImageTitleSpacing.m in Sources */,
 				940A88531F53BC5F00557C79 /* HubViewController.m in Sources */,
 				947FDBDC1F5D7A6000FC3670 /* LXPhotoCell.m in Sources */,
@@ -2152,7 +2169,6 @@
 				947FDB7B1F5D370800FC3670 /* LXJGGController.m in Sources */,
 				94422E3B1F57E131006A24A5 /* LabelTapController.m in Sources */,
 				94422E301F57DEF1006A24A5 /* LXDynamicController.m in Sources */,
-				9414E38F1F4EAB3700A4E0D3 /* MBProgressHUD.m in Sources */,
 				9414E4DF1F4EDB4000A4E0D3 /* LXAlertView.m in Sources */,
 				9414E4591F4EAD0B00A4E0D3 /* TAAnimatedDotView.m in Sources */,
 				94B296201F4FAD6E0026D58B /* LXControlView.m in Sources */,

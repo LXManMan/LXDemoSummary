@@ -36,7 +36,7 @@
     
     CGPoint  point = [window convertPoint:CGPointMake(button.frame.origin.x, button.frame.origin.y+ button.frame.size.height) fromView:self.tempView];
     
-    self.dropView =[[LXDropView alloc]initWithTitleArray:@[@"陕A 00805003",@"陕B 00805003",@"陕C 00805003"] orignPoint:point listWidth:Device_Width/2 selectResult:^(NSInteger index) {
+    self.dropView =[[LXDropView alloc]initWithTitleArray:@[@"陕A 00805003",@"陕B 00805003",@"陕C 00805003",@"陕A 00805003",@"陕B 00805003",@"陕C 00805003",@"陕A 00805003",@"陕B 00805003",@"陕C 00805003",@"陕A 00805003",@"陕B 00805003",@"陕C 00805003"] orignPoint:point listWidth:Device_Width/2 selectResult:^(NSInteger index) {
         
     }];
     

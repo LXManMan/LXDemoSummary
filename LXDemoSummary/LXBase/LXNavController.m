@@ -20,6 +20,8 @@
     self.navigationBar.translucent = YES;
 
     self.navigationBar.barTintColor = LXMainColor;
+    
+    
 }
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleDefault;
@@ -32,17 +34,7 @@
     // if不是第一个push进来的子控制器{
     if (self.childViewControllers.count >= 1) {
         // 左上角的返回按钮
-        //        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        //
-        //        [backButton setImage:[UIImage imageNamed:@"return"] forState:UIControlStateNormal];
-        ////        [backButton setImage:[UIImage imageNamed:@"return"] forState:UIControlStateHighlighted];
-        ////        [backButton setTitle:@"返回" forState:UIControlStateNormal];
-        ////        backButton.titleLabel.font = Font(16);
-        ////        [backButton sizeToFit];
-        //        [backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-        //
-        //        backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0); // 这里微调返回键的位置
-        //        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+  
         viewController.navigationItem.leftBarButtonItem =[[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"fanhui"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         viewController.hidesBottomBarWhenPushed = YES; // 隐藏底部的工具条
     }
